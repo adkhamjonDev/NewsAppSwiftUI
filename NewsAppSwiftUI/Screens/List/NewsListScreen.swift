@@ -25,10 +25,15 @@ struct NewsListScreen: View {
 extension NewsListScreen {
     private var ListView: some View {
         ScrollView {
-            VStack {
+            LazyVStack {
                 ForEach(viewModel.newsList,id: \.articleID) { news in
                 
-                    NewsItemView(newsItem: news)
+                    NavigationLink {
+                        NewsDetailsScreen(newsItem: news)
+                    } label: {
+                        NewsItemView(newsItem: news)
+                    }
+
                     
                 }
             }

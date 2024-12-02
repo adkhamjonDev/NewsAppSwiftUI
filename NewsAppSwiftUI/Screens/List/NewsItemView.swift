@@ -36,9 +36,12 @@ struct NewsItemView: View {
                 Text(newsItem.title)
                     .font(.headline)
                     .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+
                 Text(newsItem.description ?? "")
                     .font(.subheadline)
                     .lineLimit(3)
+                    .multilineTextAlignment(.leading)
                     .padding(.top, 4)
                 
                 Text("Date: \(newsItem.pubDate ?? "")")
@@ -46,6 +49,7 @@ struct NewsItemView: View {
                     .foregroundColor(.gray)
                     .padding(.top, 4)
             }
+            .foregroundColor(.black)
             .padding()
         }
         .frame(maxWidth: .infinity)

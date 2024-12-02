@@ -2,6 +2,7 @@
 //  NewsDataService.swift
 //  NewsAppSwiftUI
 //
+
 //  Created by Adkhamjon Rakhimov on 02/12/24.
 //
 import Foundation
