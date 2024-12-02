@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		EC7F30E52CFD9F1A0082DA4C /* NewsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7F30E52CFD9F1A0082DA4C /* NewsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NewsAppSwiftUI.app; path = "/Users/adkhamjon/IOSProjects/NewsAppSwiftUI/build/Debug-iphoneos/NewsAppSwiftUI.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7F30E72CFD9F1A0082DA4C /* NewsAppSwiftUI */,
-				EC7F30E62CFD9F1A0082DA4C /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		EC7F30E62CFD9F1A0082DA4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC7F30E52CFD9F1A0082DA4C /* NewsAppSwiftUI.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = EC7F30DC2CFD9F1A0082DA4C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EC7F30E62CFD9F1A0082DA4C /* Products */;
+			productRefGroup = EC7F30DC2CFD9F1A0082DA4C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
